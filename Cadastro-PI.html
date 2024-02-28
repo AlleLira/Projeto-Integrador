@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+    <title>Enem 1000</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            </a>
+            <div class="nav-items">
+                <a href="#">Estudante</a>
+                <a href="plano_de_estudo.html">Plano de Estudo</a>
+                <a href="aulas.html">Aulas</a>
+            </div>
+            <div class="cad">
+            <a href="cadastro.html" class="active">Cadastro</a>
+            <button>Login</button>
+            <img src="img/logo.png" alt="Logo2" class="logo2">
+            </div>
+            
+        </nav>
+    </header>
+
+<div class="container-cadastro">
+    <img src="img/estudante-cadastro.png" alr="estudante-cadastro" class="estudante-cadastro">
+    
+    <div class="form-container">
+        <form>
+            <h2>Cadastre-se</h2>
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" required>
+
+            <div class="form-row">
+                <div class="half">
+                    <label for="dataNascimento">Data de Nascimento</label>
+                    <input type="date" id="dataNascimento" name="dataNascimento" required>
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+            </div>
+            
+            <h3>Endereço</h3>
+
+            <label for="cep">CEP:</label>
+            <input type="text" id="cep" name="cep" maxlength="8">
+
+            <div class="form-row">
+                <div class="half">
+                    <label for="logradouro">Rua:</label>
+                    <input type="text" id="logradouro" name="logradouro" required>
+                </div>
+                <div class="half">
+                    <label for="numero">Número:</label>
+                    <input type="text" id="numero" name="numero" required>
+                </div>
+            </div>
+
+            <label for="bairro">Bairro:</label>
+            <input type="text" id="bairro" name="bairro">
+
+            <div class="form-row">
+                <div class="half">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" name="cidade" required>
+                </div>
+                <div class="half">
+                    <label for="uf">UF:</label>
+                    <input type="text" id="uf" name="uf" required>
+                </div>
+            </div>
+
+            <button type="submit" class="button-cadastro">Cadastrar</button>
+
+    </form>
+    </div>
+</div>
+
+   
+
+    <footer>
+        <p>&copy; 2024 Enem 100. Grupo 1 - Alessandra Lira - Luciana Paiva - Michelle de Silva - Wesley Alcântara</p>
+    </footer>
+
+</body>
+
+</html>
