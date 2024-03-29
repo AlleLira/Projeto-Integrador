@@ -1,0 +1,333 @@
+
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+h3 a, h3 a:visited, h3 a:hover, h3 a:active{
+    color: #029daf;
+    text-decoration: none;
+}
+body {
+    font-family:'Inter', sans-serif;
+    font-weight: bold;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Cabeçalho de todas as págians */
+header {
+    background-color: #ffffff;
+    color: #029DAF;
+    border: 1px solid rgba(238, 238, 238, 1);
+    font-size: 2vw;
+    height: 40px;
+    width: 100%;
+}
+
+nav {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(238, 238, 238, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px;
+    height: 40px;
+    text-align: center;
+}
+
+nav a {
+    color: #029DAF;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.nav-items{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+nav button {
+    color: #029DAF;
+    background-color: #FFC219;
+    font-weight: bold;
+    border: 1px solid #FFC219;
+    border-radius: 0.5em;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: auto;
+}
+
+.logo2 {
+    width: 40px;
+}
+
+.cad{
+    font-size: 15px;
+    margin-left: auto;
+}
+
+/*Página principal */
+
+.banner {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+    padding: 20px;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5em;
+}
+
+.noticias {
+    max-width: 500px;
+    width: 90%; 
+    height: 30px;
+    margin: 0 auto; 
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #029DAF;
+    border: 1.5px solid #FFC219; 
+    border-radius: 0.2em;
+    line-height: 1.5;
+    font-size: 20px;
+    color: #FFC219;
+}
+
+.newsbox{
+    border:  2px solid #029daf;
+    background-color: #f0f0f0;
+    width: 97%;
+    height: 55%;
+    margin-top: 15px;
+    border-radius: 0.5em;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.news-box { 
+    flex: 1;
+    color: #029daf;
+    background-color:#ffc219;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news-box2 { 
+    flex: 1;
+    color: #029daf;
+    background-color: #e32551;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.news-box3 { 
+    flex: 1;
+    color: #029daf;
+    background-color:#f07c19;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news{
+    width: 95%;
+    height: 80%;
+    padding-bottom: 10px;
+}
+
+
+/*Roda pé */
+
+footer {
+    background-color: #f0f0f0;
+    color: rgb(166, 166, 166);
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 96%;
+    margin-top: 10%;
+    border-radius: 0.5em;
+    border:  2px solid #029daf;
+
+}
+
+/* Plano de estudo */
+
+.img-estudante{
+    position: absolute;
+    bottom: 4.6%;
+    left:0;
+    width: 38vw; 
+    height: auto; 
+    object-fit: cover; 
+        
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    position: relative; 
+    padding-bottom: 100px;
+    
+}
+.download {
+    flex: 1; 
+    background-color: #f0f0f0;
+    border: 2px solid #FFC219;
+    border-radius: 0.5em;
+    color: #029DAF;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px; 
+    box-sizing: border-box; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.download button{
+
+    color: #029DAF;
+    background-color: #FFC219;
+    font-weight: bold;
+    border: 1px solid #FFC219;
+    border-radius: 0.5em;
+    padding: 5px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10%;
+}
+.box-img img {
+    width: auto;
+    height: auto;
+}
+
+.box-img {
+    flex-basis: auto; 
+    display: flex;
+    margin-left: 10%;
+    margin-right: 15%;
+    
+}
+.titulo{
+    color: #FFC219;
+    margin-left: 2%;
+}
+
+.box-info ol{
+    margin-left: 2%;
+    margin-right: 1.5%;
+}
+
+.box-info {
+    background-color:  #f0f0f0;
+    border: 2px solid #FFC219;
+    border-radius: 0.5em;
+    color: #029DAF;
+    width: 97%;
+    margin-top: 1.5%;
+}
+
+/* Página Aulas */
+
+
+.img-aula{
+    position: absolute;
+    bottom: 3.5%;
+    left:-2;
+    width: 38vw; 
+    height: auto; 
+    object-fit: cover; 
+        
+}
+
+.container-aula{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+} 
+
+
+.navigation{
+    width: 10%;
+    height: 70%;
+    padding: 2%;
+    background-color:  #f0f0f0;
+    margin-top: 5%;
+    margin-left: 5%;
+    border-radius: 0.5em;
+    border: 2px solid #FFC219;
+    display: flex;
+    flex-direction: column;
+}
+
+#videoPlayer{
+  
+    border: 1px solid #FFC219;
+    margin-top: 7%;
+    border-radius: 0.5em;
+    width: 60%;
+    height: 120%;
+}
+#content{
+    width: 100%;
+    height: 70%;
+    margin-left: 10%;
+}
+
+#infoBox{
+    border: 2px solid #FFC219;
+    background-color:  #f0f0f0;
+    border-radius: 0.5em;
+    width: 93%;
+    padding: 2%;
+    margin-top: 3%;
+    
+}
+
+#infoBox p{
+
+    margin-left: 28%;
+    font-size: 1.5vw;
+    color: #029DAF;
+
+}
+.materias{
+    background-color: #029DAF;
+    border: 2px solid #FFC219;
+    border-radius: 0.5em;
+    padding: 10%;
+    margin-top: 10%;
+}
