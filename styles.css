@@ -331,3 +331,103 @@ footer {
     padding: 10%;
     margin-top: 10%;
 }
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button#cadastrar-btn { 
+    background-color: #FFC219; 
+    color: #029DAF; 
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 12px;
+    display: block;
+    margin: 0 auto; 
+}
+
+button#button-login {
+    background-color: #FFC219; 
+    color: #029DAF; 
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 15px;
+}
+
+.container-cadastro {
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.form-row label,
+.form-row input {
+    margin-bottom:10px;
+}
+
+.button-cadastro{
+    margin-top: 20px;
+}
+
+.half,
+.third {
+    width: calc(33.33% - 10px); 
+    box-sizing: border-box;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    color: #029DAF;   
+}
+
+input[type="text"],
+input[type="email"],
+input[type="numero"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #FFC219;
+}
+
+#dataNascimento,
+#senha {
+    width: calc(50% - 5px);
+    padding: 8px;
+    margin-top: 5px;
+    border: 2px solid #FFC219;
+}
+
+#cep{
+    width: 30%;
+}
+
+h2 {
+    text-align: center;
+    color: #029DAF; 
+}
+
+h3 {
+    color: #FFC219;
+}
