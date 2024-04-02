@@ -3,111 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
     <title>Estudante</title>
 </head>
 
 <body>
 
 <header>
-    <nav>
-        <img src="./img/logo.png" alt="logo" class="logo">
-        <a href="#">Estudante</a>
-        <a href="#">Plano de Estudo</a>
-        <a href="#">Aulas</a>
-        <a href="#">Cadastro</a>
-        <button type="button">Login</button>
-        <img src="./img/logo.png" alt="logo" class="logo">
-    </nav>
+        <nav>
+            <a href="./index.html"><img src="img/logo.png" alt="Logo" class="logo"></a>
+            <div class="nav-items">
+                <a href="estudante.html">Estudante</a>
+                <a href="plano-de-estudo.html">Plano de Estudo</a>
+                <a href="./aulas.html">Aulas</a>
+            </div>
+            <div class="cad">
+            <a href="./PI-1.html" >Cadastro</a>
+            <button>Login</button>
+            <img src="img/logo.png" alt="Logo2" class="logo2">
+            </div>
+            
+        </nav>
 </header>
 
-<main>
-    <table>
-        <tr>
-            <td>
-                <button><a href="#Portugues">Português</a></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button><a href="#Matematica">Matemática</a></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button><a href="#Historia">História</a></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button><a href="#Geografia">Geografia</a></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button><a href="#Biologia">Biologia</a></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button><a href="#Fisica">Física</a></button>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <button><a href="#Quimica">Química</a></button>
-            </td>
-        </tr>
-    </table>
+<div class="container-aula">
+    <div id="navigation" class="navigation">
+        
+        <button class="materias1" onclick="mudarConteudo('portugues')">Português</button>
+        <button class="materias1" onclick="mudarConteudo('matematica')">Matemática</button>
+        <button class="materias1" onclick="mudarConteudo('história')">História</button>
+        <button class="materias1" onclick="mudarConteudo('geografia')">Geografia</button>
+        <button class="materias1" onclick="mudarConteudo('biologia')">Biologia</button>
+        <button class="materias1" onclick="mudarConteudo('fisica')">Física</button>
+        <button class="materias1" onclick="mudarConteudo('quimica')">Química</button>
+    </div>
 
-    <table>
-        <tr>
-            <td>
-                <div id="Portugues">
-                    <h2>Português</h2>
-                    <p>Parte I <br>
-                        Capítulos desse volume:
-                        Texto, Linguagem e comunicaçâo, Géneros textuais, <br> lingua e sim, Classes gramaticais: Substantivos, Verbos</p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div id="">
-                    <h2>Português</h2>
-                    <p>Parte II <br>
-                        Capítulos desse volume:
-                        Sintaxe do periodo simples:Termos de oraçâo, funções <br> sintáticas, coordenação, 
-                        subordinação, puntuação da lingua portuguesa.
-                    </p>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div id="">
-                    <h2>Redação</h2>
-                    <p>Único <br>
-                        Capítulo desse volume:
-                        Géneros textuais e orais, redação dissertativa, <br> argumentativa, leitura e compreensão de texto e como <br> fazer a redação do enem.
-                    </p>
-                </div>
-            </td>
-        </tr>
-    </table>
+    <div id="conteudo">
+        <div class="info1">
+        <h2>Português</h2>
+        <p>Parte I <br>
+            Capítulos desse volume:
+            Texto, Linguagem e comunicaçâo, Géneros textuais, <br> lingua e sim, Classes gramaticais: Substantivos, Verbos</p>
+        </div>
+    <div class="info2">
+        <h2>Português</h2>
+        <p>Parte II <br>
+            Capítulos desse volume:
+            Sintaxe do periodo simples:Termos de oraçâo, funções <br> sintáticas, coordenação, 
+            subordinação, puntuação da lingua portuguesa.
+        </p>
+    </div>
+    <div class="info3">
+        <h2>Redação</h2>
+        <p>Único <br>
+            Capítulo desse volume:
+            Géneros textuais e orais, redação dissertativa, <br> argumentativa, leitura e compreensão de texto e como <br> fazer a redação do enem.
+        </p>
+    </div>
 
-    <table>
-        <tr>
-            <td>
-                <img src="./img/estudante.png" alt="estudante">
-            </td>
-        </tr>
-    </table>
-</main>
+    
+    </div>
+</div>
+
+    <img src="./img/estudante.png" class="estudante">
+
+    <footer>
+        <div>&copy; 2024 Enem 1000. Grupo 1 - Alessandra Lira - Luciana Paiva - Michelle de Silva - Wesley Alcântara</div>
+
+    </footer>
 
 </body>
-
-<footer>
-    &copy; 2024 Enem 1000. Grupo 1 - Alessandra Lira - Luciana Paiva - Michelle de Silva - Wesley Alcântara
-</footer>
 
 </html>

@@ -431,3 +431,44 @@ h2 {
 h3 {
     color: #FFC219;
 }
+
+
+/*Página Estudante*/
+
+.estudante{
+    position: absolute;
+    bottom: 5%;
+    right: 0;
+    width: 28vw; 
+    height: auto; 
+    object-fit: cover; 
+        
+}
+
+.materias1{
+    background-color: #029DAF;
+    border: 2px solid #FFC219;
+    border-radius: 0.5em;
+}
+
+.container-aula{
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+#conteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.info1, 
+.info2, 
+.info3{
+    border: 2px solid #FFC219;
+    border-radius: 0.5em;
+    background-color: #f0f0f0;
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 10%;
+}
