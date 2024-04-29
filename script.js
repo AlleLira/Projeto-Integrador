@@ -149,3 +149,34 @@ function mudarConteudo(conteudo) {
 
     document.getElementById("conteudo").innerHTML = novoConteudo;
 }
+
+
+function validarForm() {
+    var nome = document.getElementById("nome").value;
+    var email = document.getElementById("email").value;
+    var dataNascimento = document.getElementById("dataNascimento").value;
+    var senha = document.getElementById("senha").value;
+    var cep = document.getElementById("cep").value;
+    var logradouro = document.getElementById("logradouro").value;
+    var numero = document.getElementById("numero").value;
+    var cidade = document.getElementById("cidade").value;
+    var uf = document.getElementById("uf").value;
+
+    if (nome === "" || email === "" || dataNascimento === "" || senha === "" || cep === "" || logradouro === "" || numero === "" || cidade === "" || uf === "") {
+        alert("Por favor, preencha todos os campos obrigatórios.");
+        return false; 
+    }
+   
+    if (!validarEmail(email)) {
+        alert("Por favor, insira um e-mail válido.");
+        return false; 
+    }
+
+
+    return true;
+}
+
+function validarEmail(email) {
+    var re = /\S+@\S+\.\S+/;
+    return re.test(email);
+}
