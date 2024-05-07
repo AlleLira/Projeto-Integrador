@@ -3,6 +3,7 @@ body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
     position: relative;
+
 }
 
 h3 a, h3 a:visited, h3 a:hover, h3 a:active{
@@ -79,6 +80,10 @@ nav button {
     margin-left: auto;
 }
 
+.active{
+    color: #e32551;
+}
+
 /*Página principal */
 
 .banner {
@@ -138,6 +143,11 @@ section {
     flex-direction: column;
     align-items: center;
 }
+.news-box h3{
+    background-color: #e3dcdc;
+    padding: 2%;
+    border-radius: 5px;
+}
 .news-box2 { 
     flex: 1;
     color: #029daf;
@@ -149,6 +159,12 @@ section {
     flex-direction: column;
     align-items: center;
 }
+
+.news-box2 h3{
+    background-color: #e3dcdc;
+    padding: 2%;
+    border-radius: 5px;
+}
 .news-box3 { 
     flex: 1;
     color: #029daf;
@@ -159,6 +175,11 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.news-box3 h3{
+    background-color: #e3dcdc;
+    padding: 3%;
+    border-radius: 5px;
 }
 
 .news{
@@ -328,8 +349,11 @@ footer {
     background-color: #029DAF;
     border: 2px solid #FFC219;
     border-radius: 0.5em;
-    padding: 10%;
+    padding: 8%;
     margin-top: 10%;
+    color: #f9f9f9;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 button {
@@ -339,6 +363,18 @@ button {
     cursor: pointer;
     margin-bottom: 20px;
     box-sizing: border-box;
+}
+
+
+/*Cadastro*/
+
+.estudante-cadastro{
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    width: 28vw; 
+    height: auto; 
+
 }
 
 button#cadastrar-btn { 
@@ -351,13 +387,7 @@ button#cadastrar-btn {
     margin: 0 auto; 
 }
 
-button#button-login {
-    background-color: #FFC219; 
-    color: #029DAF; 
-    font-weight: bold;
-    font-size: 16px;
-    padding: 10px 15px;
-}
+
 
 .container-cadastro {
     display: flex;
@@ -372,6 +402,13 @@ button#button-login {
     align-items: center;
     margin-top: 20px;
     padding-bottom: 20px;
+}
+input{
+ border-radius: 5px;
+ background-color: #f9f9f9 ;
+}
+.form-container h2{
+    font-size: 25px;
 }
 
 .form-row {
@@ -413,7 +450,7 @@ input[type="numero"] {
 
 #dataNascimento,
 #senha {
-    width: calc(50% - 5px);
+    width: calc(80% - 5px);
     padding: 8px;
     margin-top: 5px;
     border: 2px solid #FFC219;
@@ -422,6 +459,7 @@ input[type="numero"] {
 #cep{
     width: 30%;
 }
+
 
 h2 {
     text-align: center;
@@ -449,6 +487,9 @@ h3 {
     background-color: #029DAF;
     border: 2px solid #FFC219;
     border-radius: 0.5em;
+    color:  #e3dcdc;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .container-aula{
@@ -472,3 +513,4 @@ h3 {
     margin-top: 5%;
     margin-left: 10%;
 }
+
